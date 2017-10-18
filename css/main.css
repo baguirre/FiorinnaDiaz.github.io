@@ -1,308 +1,305 @@
 @font-face {
-    font-family:'karlabold';
-    src:url(../fonts/karla/karla-bold-webfont.eot);
-    src:url(../fonts/karla/karla-bold-webfont.eot?#iefix) format("embedded-opentype"),
-        url(../fonts/karla/karla-bold-webfont.woff2) format("woff2"),
-        url(../fonts/karla/karla-bold-webfont.woff) format("woff"),
-        url(../fonts/karla/karla-bold-webfont.ttf) format("truetype"),
-        url(../fonts/karla/karla-bold-webfont.svg#karlabold) format("svg");
-    font-weight:400;
-    font-style:normal
+  font-family: 'karlabold';
+  src: url(../fonts/karla/karla-bold-webfont.eot);
+  src: url(../fonts/karla/karla-bold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/karla/karla-bold-webfont.woff2) format('woff2'),
+    url(../fonts/karla/karla-bold-webfont.woff) format('woff'),
+    url(../fonts/karla/karla-bold-webfont.ttf) format('truetype'),
+    url(../fonts/karla/karla-bold-webfont.svg#karlabold) format('svg');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family:'helvetica_neue_lt_std35_thin';
-    src:url(../fonts/helvetica/helveticaneueltstd-th-webfont.eot);
-    src:url(../fonts/helvetica/helveticaneueltstd-th-webfont.eot?#iefix) format("embedded-opentype"),
-        url(../fonts/helvetica/helveticaneueltstd-th-webfont.woff) format("woff"),
-        url(../fonts/helvetica/helveticaneueltstd-th-webfont.ttf) format("truetype"),
-        url(../fonts/helvetica/helveticaneueltstd-th-webfont.svg#helvetica_neue_lt_std35_thin) format("svg");
-    font-weight:400;
-    font-style:normal
+  font-family: 'helvetica_neue_lt_std35_thin';
+  src: url(../fonts/helvetica/helveticaneueltstd-th-webfont.eot);
+  src: url(../fonts/helvetica/helveticaneueltstd-th-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/helvetica/helveticaneueltstd-th-webfont.woff) format('woff'),
+    url(../fonts/helvetica/helveticaneueltstd-th-webfont.ttf) format('truetype'),
+    url(../fonts/helvetica/helveticaneueltstd-th-webfont.svg#helvetica_neue_lt_std35_thin) format('svg');
+  font-weight: 400;
+  font-style: normal;
 }
 
 html,
 body {
-    height:100%;
-    width:100%
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    color:#fff;
-    font-weight:100;
-    font-size:16px;
-    line-height:1.4em;
-    letter-spacing:.0625em;
-    font-family:'helvetica_neue_lt_std35_thin'
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.4em;
+  letter-spacing: 0.0625em;
+  font-family: 'helvetica_neue_lt_std35_thin';
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-weight:100
+  font-weight: 100;
 }
 
 h1 {
-    font-size:3.75em;
-    line-height:1em;
-    letter-spacing:.01em;
-    margin-top:0;
-    -webkit-animation-delay:.1s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+  font-size: 3.75em;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  margin-top: 0;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 h2 {
-    font-size:1.438em
+  font-size: 1.438em;
 }
 
 ul {
-    padding:0;
-    list-style-type:none
+  padding: 0;
+  list-style-type: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color:#94ce6e;
-    text-decoration:none
+  color: #94ce6e;
+  text-decoration: none;
 }
 
 .wrap {
-    width:100%;
-    height:100%
+  width: 100%;
+  height: 100%;
 }
 
 aside {
-    height:100vh;
-    color:#52627A;
-    color:#64768D;
-    overflow-y: scroll
+  height: 100vh;
+  color: #52627a;
+  color: #64768d;
+  overflow-y: scroll;
 }
 
 aside section,
 main section {
-    padding:30px
+  padding: 30px;
 }
 
 aside h2 {
-    margin:20px 0;
-    -webkit-animation-delay:.3s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+  margin: 20px 0;
+  -webkit-animation-delay: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 h1,
 aside h2,
-aside p {
-    font-weight:200
+aside p,
+aside span {
+  font-weight: 200;
 }
 
 aside h2 {
-    font-size:1.25em
+  font-size: 1.25em;
 }
 
-aside p {
-    -webkit-animation-delay:.4s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+aside p,
+aside span {
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 aside nav {
-    margin-top:20px;
-    -webkit-animation-delay:.5s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+  margin-top: 20px;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 aside nav ul li {
-    margin-bottom:5px;
-    line-height:1.2em
+  margin-bottom: 5px;
+  line-height: 1.2em;
 }
 
 aside nav ul br {
-    display:block;
-    content:'';
-    height:10px
+  display: block;
+  content: '';
+  height: 10px;
 }
 
 aside nav ul li a {
-    text-transform:uppercase;
-    font-family:'karlabold';
-    text-decoration:none;
-    color:#52627A
+  text-transform: uppercase;
+  font-family: 'karlabold';
+  text-decoration: none;
+  color: #52627a;
 }
 
 aside nav ul li a:hover {
-    text-decoration:none
+  text-decoration: none;
 }
 
 aside nav ul li.mobile {
-    display:none
+  display: none;
 }
 
 main {
-    height:100%;
-    float:none;
-    background:#0B486B
+  height: 100%;
+  float: none;
+  background: #0b486b;
 }
 
 main .status {
-    background:#52627A;
-    overflow-y:scroll;
-    height:100vh;
+  background: #52627a;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 main .status section {
-    -webkit-animation-delay:.7s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+  -webkit-animation-delay: 0.7s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 main .status a {
-    color: #fff;
-    border-bottom: 1px solid #fff;
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 
-main .status a:hover{
+main .status a:hover {
   color: #94ce6e;
   border-bottom: 1px solid #94ce6e;
 }
 
 main .skills {
-    overflow-y:scroll;
-    background:#0B486B;
-    height: 100vh;
+  overflow-y: scroll;
+  background: #0b486b;
+  height: 100vh;
 }
 
 main .skills section {
-    -webkit-animation-delay:.9s;
-    -webkit-animation-duration:.5s;
-    -webkit-animation-fill-mode:both;
-    -webkit-animation-name:fadeInLeft
+  -webkit-animation-delay: 0.9s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
 }
 
 main .status article {
-    margin-top:60px
+  margin-top: 60px;
 }
 
 main .status article h3 {
-    font-size:2.25em;
-    margin:0;
-    margin-top:-20px;
-    margin-bottom:30px
+  font-size: 2.25em;
+  margin: 0;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 main h2 {
-    text-transform:uppercase;
-    font-family:'karlabold';
-    font-size:1.125em
+  text-transform: uppercase;
+  font-family: 'karlabold';
+  font-size: 1.125em;
 }
 
-main p, main h2, main ul {
-    margin-bottom:30px
+main p,
+main h2,
+main ul,
+main span {
+  margin-bottom: 30px;
 }
 
 main ul li {
-    line-height:1.4em;
-    margin-bottom:10px
+  line-height: 1.4em;
+  margin-bottom: 10px;
 }
 
-.skills p {
-    line-height:1.4em;
+.skills p,
+.skills span {
+  line-height: 1.4em;
 }
 
 main a {
-    color:#F79DA1;
+  color: #f79da1;
 }
 
 @-webkit-keyframes fadeInLeft {
-    0% {
-        opacity:0;
-        -webkit-transform:translateX(-20px)
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
 
-    100% {
-        opacity:1;
-        -webkit-transform:translateX(0)
-    }
-
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
 }
 
-@media only screen and (max-width : 1420px) {
-    body {
-        height:auto
-    }
-
+@media only screen and (max-width: 1420px) {
+  body {
+    height: auto;
+  }
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
+  aside section,
+  main section {
+    padding: 20px;
+  }
 
-    aside section,
-    main section {
-        padding:20px
-    }
+  main .status {
+    overflow-y: scroll;
+  }
 
-    main .status {
-        overflow-y:scroll
-    }
-
-    aside nav ul li {
-        margin-bottom:15px
-    }
-
+  aside nav ul li {
+    margin-bottom: 15px;
+  }
 }
 
-@media only screen and (max-width : 992px) {
-
-    main,
-    main .status,
-    main .skills {
-        height:100%!important
-    }
-
+@media only screen and (max-width: 992px) {
+  main,
+  main .status,
+  main .skills {
+    height: 100% !important;
+  }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
+  body {
+    line-height: 1.3em;
+  }
 
-    body {
-        line-height:1.3em
-    }
+  main ul li {
+    margin-bottom: 10px;
+  }
 
-    main ul li {
-        margin-bottom:10px
-    }
+  main .skills,
+  main .status {
+    height: auto !important;
+    overflow-y: hidden;
+  }
 
-    main .skills,
-    main .status {
-        height:auto!important;
-        overflow-y:hidden
-    }
+  main .status article h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
 
-    main .status article h3 {
-        font-size:2em;
-        margin-bottom:10px
-    }
-
-    aside {
-        height: auto
-    }
-
+  aside {
+    height: auto;
+  }
 }
 
-@media only screen and (max-width : 480px) {
-    aside nav ul li.mobile {
-        display:block
-    }
+@media only screen and (max-width: 480px) {
+  aside nav ul li.mobile {
+    display: block;
+  }
 
-    aside nav ul li.desktop {
-        display:none
-    }
-
+  aside nav ul li.desktop {
+    display: none;
+  }
 }
